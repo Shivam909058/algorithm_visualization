@@ -138,7 +138,7 @@ def visualize_algorithm(arr, algorithm):
         iterations[0] += 1
         text.set_text(f"Iterations: {iterations[0]}")
         image.image(fig2rgb_array(fig), use_column_width=True)
-        time.sleep(0.005)  # Adjust the speed of animation here
+        time.sleep(0.1)  # Adjust the speed of animation here
 
 def start_visualization(array_size, selected_algorithm):
     arr = random.sample(range(1, array_size + 1), array_size)
